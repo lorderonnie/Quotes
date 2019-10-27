@@ -8,6 +8,7 @@
    <ul>
     <li *ngFor='let quote of quotes'>
       {{quote.name}}
+      <app-quotes-time [quote]='quote'></app-quotes-time>
     </li>
   </ul> 
   <p *ngIf='quotes.length > 5'>let your creativity run wild!!</p>
