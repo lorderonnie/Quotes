@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input,EventEmitter, Output } from '@angular/core';
 import { Quote } from '../quote';
 
 @Component({
@@ -8,6 +8,11 @@ import { Quote } from '../quote';
 })
 export class QuotesTimeComponent implements OnInit {
   @Input() quote: Quote;
+  @Output() isRelease = new EventEmitter<boolean>();
+
+  quoterelease(release:boolean){
+    this.isRelease.emit(release);
+  }
   constructor() { }
 
   ngOnInit() {

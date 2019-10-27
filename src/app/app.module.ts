@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuotesTimeComponent } from './quotes-time/quotes-time.component';
+import { StrikethroughDirective } from './strikethrough.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuoteComponent,
-    QuotesTimeComponent
+    QuotesTimeComponent,
+    StrikethroughDirective
   ],
   imports: [
     BrowserModule,
