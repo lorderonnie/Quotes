@@ -6,7 +6,7 @@
   </div>
   <h3> The following are example Quotes from famous legends..</h3>
    <ul>
-    <li *ngFor='let quote of quotes'>
+    <li *ngFor='let quote of quotes;let i=index'>
       {{quote.name}}<br>
       <button (click)= 'showDetails(i)' >Show details</button>
       <app-quotes-time *ngIf='quote.showDescription' [quote]='quote' (isRelease) = 'releaseQuote($event,i)' ></app-quotes-time>

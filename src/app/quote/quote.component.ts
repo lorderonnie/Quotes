@@ -15,11 +15,12 @@ export class QuoteComponent implements OnInit {
    new Quote(5, 'Today’s Accomplishments Were Yesterday’s Impossibilities', 'Robert H Schuller'),
   ];
 
-  showDetails(index: number){
+  showDetails(index){
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
   }
   releaseQuote({ isRelease, index }: { isRelease: any; index: number; }){
     if (isRelease) {
+      
       this.quotes.splice(index,1);
     }
   }
