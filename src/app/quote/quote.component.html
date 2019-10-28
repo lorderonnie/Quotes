@@ -1,15 +1,15 @@
 <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Dancing+Script|Niconne&display=swap" rel="stylesheet">
 <div class="pro">
-    <h1><b>Quotes from Time</b></h1>
-    <p>This is a plat form build for you to explore your inner creativity and baffel everyone with a quote of your own making... </p>
-  <hr>
-  </div>
+    <h1><b>~QUOTES FROM TIME~</b></h1>
+    <p>"This is a platform build for you to explore your inner creativity and baffel everyone with a quote of your own making..."</p>
+
+  </div><br><br><br><br><br><br><br><br><br><br>
   <h3> The following are example Quotes from famous legends..</h3>
-   <ul>
-    <li *ngFor='let quote of quotes;let i=index'>
-      {{quote.name}}<br>
+  <div *ngFor='let quote of quotes;let i=index'>
+   <ul>   
+      <li highlight>{{quote.name}} created on {{quote.releaseDate|date}}</li>   
       <button (click)= 'showDetails(i)' >Show details</button>
-      <app-quotes-time *ngIf='quote.showDescription' [quote]='quote' (isRelease) = 'releaseQuote($event,i)' ></app-quotes-time>
-    </li>
+      <app-quotes-time *ngIf='quote.showDescription' [quote]='quote' (isRelease) = 'deleteQuote($event,i)' ></app-quotes-time>
   </ul> 
+  </div>
   <p *ngIf='quotes.length > 5'>let your creativity run wild!!</p>

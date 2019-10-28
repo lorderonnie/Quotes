@@ -9,8 +9,8 @@ import { Quote } from '../quote';
 export class QuotesTimeComponent implements OnInit {
   @Input() quote: Quote;
   @Output() isRelease = new EventEmitter<boolean>();
-
-  quoterelease(release:boolean){
+  
+  quoteRelease(release:boolean){
     this.isRelease.emit(release);
   }
   constructor() { }
