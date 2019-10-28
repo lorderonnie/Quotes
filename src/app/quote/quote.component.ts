@@ -21,16 +21,6 @@ export class QuoteComponent implements OnInit {
     quote.releaseDate = new Date(quote.releaseDate)
     this.quotes.push(quote)
   }
-likingQuote(islikeQuote, index){
-  if(islikeQuote){
-    this.quotes[index].likeVote++
-  }
-}
-dislikingQuote(isdislikeQuote, index){
-  if(isdislikeQuote){
-    this.quotes[index].dislikeVote++
-  }
-}
 
   showDetails(index){
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
