@@ -5,11 +5,11 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.12.
 It is a web app formed to generate quotes post them and also allow a user to leave a like or a dislike on the quote.
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
+* Access a laptop or Tablet
+* Gain access to bundles or WI-FI
+* Go to github and access this link:
+* Check the code via atom or visual studio code
+* Use atom . or code . to open the code from your terminal
 {Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
 ## Known Bugs
 {Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
