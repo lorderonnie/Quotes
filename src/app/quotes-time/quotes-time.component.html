@@ -1,6 +1,6 @@
 <p>{{quote.description}}</p>
 <p>This quote was created on {{quote.releaseDate|dateCount}} days</p>
 
-<button id="free" class="btn btn-primary" (click)= 'yeslike()'>😁like {{quote.likeVote}}</button>
-<button id="free" style="margin: 10px;" class="btn btn-danger" (click)= 'noLike()'>😤dislike {{quote.dislikeVote}}</button><br><br>
+<button id="free" class="btn btn-primary" (click)= 'yeslike()'><b style="color: black;">😁like {{quote.likeVote}}</b></button>
+<button id="free" style="margin: 10px;" class="btn btn-danger" (click)= 'noLike()'><b style="color: black;">😤dislike {{quote.dislikeVote}}</b></button><br><br>
 <button class="btn btn-success"  (click)= 'quoteRelease(true)'>Release</button>

@@ -15,6 +15,11 @@ export class QuoteComponent implements OnInit {
    new Quote(4, 'Creativity Is Intelligence Having Fun', 'Albert Einstein',new Date(1896,4,2),0,0),
    new Quote(5, 'Today’s Accomplishments Were Yesterday’s Impossibilities', 'Robert H Schuller',new Date(1988,7,30),0,0),
   ];
+  get sort(){
+    return this.quotes.sort((a,b)=>{
+      return (b.likeVote) as any - (a.likeVote) as any;
+    });
+  }
   addNewQuote(quote: Quote){
     let quoteLength = this.quotes.length;
     quote.id = quoteLength+1;

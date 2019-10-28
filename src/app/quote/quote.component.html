@@ -5,12 +5,13 @@
 
   </div><br><br><br><br><br><br><br><br><br><br>
   <h3> The following are example Quotes from famous legends..</h3>
-  <div *ngFor='let quote of quotes;let i=index'>
+  <div *ngFor='let quote of sort;let i=index'>
    <ul>   
-      <li highlight>{{quote.name}} created on {{quote.releaseDate|date}}</li>   
+      <li appHighlight>{{quote.name}} created on {{quote.releaseDate|date}}</li>   
       <button (click)= 'showDetails(i)' >Show details</button>
       <app-quotes-time *ngIf='quote.showDescription' [quote]='quote' (isRelease) = 'deleteQuote($event,i)' (islikeVote) = 'likingQuote($event,i)' (isdislikeVote) = 'dislikingQuote($event,i)' ></app-quotes-time>
   </ul> 
+
   </div>
   <p *ngIf='quotes.length > 5'>let your creativity run wild!!</p><br>
   <app-quote-section (addQuote)="addNewQuote($event)"></app-quote-section>
