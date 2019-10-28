@@ -1,6 +1,6 @@
 # QUOTES
-#### {Brief description of application}, {Date of current version}
-#### By **{List of contributors}**
+#### {This is a quote generating web app.}, {28 October,2019}
+#### By **{Ronald}**
 ## Description
 
 
