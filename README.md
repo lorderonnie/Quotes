@@ -14,7 +14,13 @@ It is a web app formed to generate quotes post them and also allow a user to lea
 ## Known Bugs
 no bugs so far with the app.
 ## Technologies Used
+Angular CLI: This was used in the creation of diffrent components and directives used to run the app.
 
+HTML: Holds in side the detailed codes and writtings found on the app.It also links fonts and images.
+
+CSS: Used in diffrent components in the app to style the app and also change the fonts of the wordings.
+
+Typescript: This is where most magic happens and also makes the page more responsive. It also links                  events of diffrent components and makes responsive come backs.
 ## Support and contact details
 {Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
 ### License
