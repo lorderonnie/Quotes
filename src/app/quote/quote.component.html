@@ -9,7 +9,7 @@
    <ul>   
       <li highlight>{{quote.name}} created on {{quote.releaseDate|date}}</li>   
       <button (click)= 'showDetails(i)' >Show details</button>
-      <app-quotes-time *ngIf='quote.showDescription' [quote]='quote' (isRelease) = 'deleteQuote($event,i)' ></app-quotes-time>
+      <app-quotes-time *ngIf='quote.showDescription' [quote]='quote' (isRelease) = 'deleteQuote($event,i)' (islikeVote) = 'likingQuote($event,i)' (isdislikeVote) = 'dislikingQuote($event,i)' ></app-quotes-time>
   </ul> 
   </div>
   <p *ngIf='quotes.length > 5'>let your creativity run wild!!</p><br>

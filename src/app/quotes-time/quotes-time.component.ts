@@ -13,6 +13,15 @@ export class QuotesTimeComponent implements OnInit {
   quoteRelease(release:boolean){
     this.isRelease.emit(release);
   }
+@Output() islikeQuote = new EventEmitter<boolean>();
+@Output() isdislikeQuote = new EventEmitter<boolean>();
+
+likeQuote(okayVote:boolean){
+  this.islikeQuote.emit(okayVote)
+};
+dislikeQuote(noVote:boolean){
+  this.isdislikeQuote.emit(noVote)
+};
   constructor() { }
 
   ngOnInit() {
