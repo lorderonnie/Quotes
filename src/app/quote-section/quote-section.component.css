@@ -1,9 +1,18 @@
 h2{
     font-family: 'Fondamento', cursive;
+    font-size: 40px;
 }
 #name{
     width: 400px;
 }
 #description{
     width: 500px;
+}
+#cold{
+    position: absolute;
+    left: 80%;
+    transform: translate(-0%, 20%)
+}
+#author{
+    width: 400px;
 }

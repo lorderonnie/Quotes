@@ -1,7 +1,7 @@
 <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Dancing+Script|Niconne&display=swap" rel="stylesheet">
 <div class="pro">
     <h1><b>~QUOTES FROM TIME~</b></h1>
-    <p>"This is a platform build for you to explore your inner creativity and baffel everyone with a quote of your own making..."</p>
+    <p>"This is a platform built for you to explore your inner creativity and baffel everyone with a quote of your own making..."</p>
 
   </div><br><br><br><br><br><br><br><br><br><br>
   <h3> The following are example Quotes from famous legends..</h3>
@@ -13,4 +13,4 @@
   </ul> 
   </div>
   <p *ngIf='quotes.length > 5'>let your creativity run wild!!</p><br>
-  <app-quote-section></app-quote-section>
+  <app-quote-section (addQuote)="addNewQuote($event)"></app-quote-section>

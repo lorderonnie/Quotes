@@ -3,7 +3,7 @@
 body{
     /* background-color: grey; */
     background-size: cover;
-    background-image: url(https://wisdomquotes.com/wp-content/uploads/deep-quotes-every-saint-has-a-past-every-sinner-has-a-future-oscar-wilde-wisdom-quotes.jpg);
+    background-image: url(https://lh3.googleusercontent.com/-uL7TA36oD3Q/VdnQ7J9UzRI/AAAAAAAABak/XMg4clNyXiA/s512-Ic42/William%252520Shakespeare%252520quotes%252520images%252520pics%252520best%252520famous%252520%252520%25252812%252529.jpg);
 }
 #gone{
     position: absolute;
@@ -14,5 +14,5 @@ body{
     position: absolute;
     bottom:0%;
     left: 80%;
-    transform: translate(-10%,90%)
+    transform: translate(-0%,96%)
 }
