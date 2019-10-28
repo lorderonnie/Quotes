@@ -12,4 +12,5 @@
       <app-quotes-time *ngIf='quote.showDescription' [quote]='quote' (isRelease) = 'deleteQuote($event,i)' ></app-quotes-time>
   </ul> 
   </div>
-  <p *ngIf='quotes.length > 5'>let your creativity run wild!!</p>
+  <p *ngIf='quotes.length > 5'>let your creativity run wild!!</p><br>
+  <app-quote-section></app-quote-section>

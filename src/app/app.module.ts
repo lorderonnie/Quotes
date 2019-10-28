@@ -7,6 +7,7 @@ import { QuoteComponent } from './quote/quote.component';
 import { QuotesTimeComponent } from './quotes-time/quotes-time.component';
 import { HighlightDirective } from './highlight.directive';
 import { DateCountPipe } from './date-count.pipe';
+import { QuoteSectionComponent } from './quote-section/quote-section.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { DateCountPipe } from './date-count.pipe';
     QuotesTimeComponent,
     HighlightDirective,
     DateCountPipe,
+    QuoteSectionComponent,
     
   ],
   imports: [

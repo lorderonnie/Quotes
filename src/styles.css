@@ -12,6 +12,7 @@ body{
 }
 #fire{
     position: absolute;
-    top: 99%;
+    bottom:0%;
     left: 80%;
+    transform: translate(-10%,90%)
 }
