@@ -1,4 +1,8 @@
-# Quotes
+# QUOTES
+#### {Brief description of application}, {Date of current version}
+#### By **{List of contributors}**
+## Description
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.12.
 
